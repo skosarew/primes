@@ -6,3 +6,8 @@ This is a Flask app for obtaining prime multipliers of the input number.
 * `static/templates/index.html` main page
 * `primes.html` page with results
 ****
+
+![Screen 1](https://github.com/skosarew/primes/blob/master/static/images/cut1_low.png)
+
+
+![Screen 2](https://github.com/skosarew/primes/blob/master/static/images/cut2_low.png)
