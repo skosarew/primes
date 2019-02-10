@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime multipliers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body id="primes">
+<div id="inner_div">
+    <h1> Your answer for <span class="init_number">{{ number }}</span> is </h1>
+    <table>
+        <tr>
+            <th></th>
+            <th>prime</th>
+        </tr>
+        {% for  e in prime_numbers %}
+            <tr>
+                <td> {{ e[0] }}</td>
+                <td>{{ e[1] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <button class="green_button" onClick="window.location.href='/'"> Back</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+#init {
+    background-image: url("../images/dolores.jpg");
+    background-repeat: no-repeat;
+    font-size: 24px;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+
+#primes {
+    background-image: url("../images/dolores_happy.jpg");
+    background-repeat: no-repeat;
+    font-size: 24px;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: right;
+}
+
+.green_button {
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: #2d7c98;
+    border: none;
+    color: white;
+}
+
+.init_number{
+    color: dodgerblue;
+}
+input{
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+label{
+    margin: 20px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+td{
+    width: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: rgba(107, 64, 0, 0.2);
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+#inner_div{
+    position: fixed;
+    text-align: center;
+    overflow: auto;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+</head>
+<body  id="init">
+
+<div>
+    <h1> Prime numbers </h1>
+    <form action="getprimes" method="get">
+        <label for="input_number">Input any number</label>
+        <input type="text" value="888" name="number" id="input_number">
+        <input type="submit" value="Send answer" class="green_button">
+    </form>
+</div>
+</body>
+</html>
