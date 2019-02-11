@@ -8,8 +8,6 @@
     color: white;
 }
 
-
-
 #primes {
     background-image: url("../images/dolores_happy.jpg");
     background-repeat: no-repeat;
@@ -19,7 +17,9 @@
     height: 100%;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: right;
+    /*text-align: right;*/
+    left: 60%;
+    position: fixed;
 }
 
 .green_button {
@@ -31,19 +31,21 @@
     color: white;
 }
 
-.init_number{
+.init_number {
     color: dodgerblue;
 }
-input{
+
+input {
     display: block;
     margin: 20px;
     text-align: center;
 }
-label{
+
+label {
     margin: 20px;
 }
 
-table{
+table {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
@@ -51,21 +53,25 @@ table{
     margin-bottom: 30px;
 }
 
-td{
-    width: 30px;
+td {
+    width: 40px;
+    padding: 10px;
+    margin: 10px;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
 }
 
-th{
-    background-color: rgba(107, 64, 0, 0.2);
+th {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(57, 21, 0, 0.3);
     border: 1px solid black;
     border-collapse: collapse;
 }
 
 
-#inner_div{
+#inner_div {
     position: fixed;
     text-align: center;
     overflow: auto;
